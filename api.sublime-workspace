@@ -1,0 +1,1033 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"con",
+				"container"
+			],
+			[
+				"define",
+				"defineProperty"
+			],
+			[
+				"Obj",
+				"Object	(knockout.debug.js)"
+			],
+			[
+				"pag",
+				"pageX"
+			],
+			[
+				"inn",
+				"innerHTML	(knockout.debug.js)"
+			],
+			[
+				"remove",
+				"removeResource"
+			],
+			[
+				"cre",
+				"createElement〔function〕"
+			],
+			[
+				"contr",
+				"controller	(index.html)"
+			],
+			[
+				"ap",
+				"apis"
+			],
+			[
+				"sta",
+				"status	(knockout.debug.js)"
+			],
+			[
+				"tmpl",
+				"tmplConfig"
+			],
+			[
+				"innerH",
+				"innerHTML"
+			],
+			[
+				"sett",
+				"setTimeout(callback, after);"
+			],
+			[
+				"crea",
+				"createElement	(docRender.js)"
+			],
+			[
+				"upload",
+				"uploading	(docUpload.js)"
+			],
+			[
+				"mat",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"add",
+				"addClass〔function〕"
+			],
+			[
+				"tea",
+				"text-align"
+			],
+			[
+				"trans",
+				"transform	(dcoManage.css)"
+			],
+			[
+				"ss",
+				"ssqBtn"
+			],
+			[
+				"tra",
+				"transform	(dcoManage.css)"
+			],
+			[
+				"err",
+				"errorMsg"
+			],
+			[
+				"res",
+				"response	(docUpload.js)"
+			],
+			[
+				"render",
+				"renderComponent"
+			],
+			[
+				"font",
+				"font-size: 〔property〕"
+			],
+			[
+				"dis",
+				"display	(editBeforeSign.js)"
+			],
+			[
+				"app",
+				"appointstate"
+			],
+			[
+				"set",
+				"setAttribute"
+			],
+			[
+				"parent",
+				"parents"
+			],
+			[
+				"pars",
+				"parseURL"
+			],
+			[
+				"clea",
+				"clearTimeout"
+			],
+			[
+				"isUp",
+				"isUploadPassed"
+			],
+			[
+				"sty",
+				"style	(homepage.jsp)"
+			],
+			[
+				"ha",
+				"hashChangehandler	(docList.js)"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"data",
+				"dataset"
+			],
+			[
+				"ssqB",
+				"ssqBtnPrimary"
+			],
+			[
+				"clear",
+				"clearTimeout	(docList.js)"
+			],
+			[
+				"inner",
+				"innerHTML	(signIndex.js)"
+			],
+			[
+				"appoint",
+				"appointstate	(dcoManage.css)"
+			],
+			[
+				"remo",
+				"removeClass	.removeClass()"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"tim",
+				"timer"
+			],
+			[
+				"conte",
+				"content	(docRender.js)"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"docu",
+				"document"
+			],
+			[
+				"paret",
+				"parents〔function〕"
+			],
+			[
+				"outer",
+				"outerHeight	.outerHeight()"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"bb",
+				"border-bottom"
+			],
+			[
+				"stop",
+				"stopPropagation"
+			],
+			[
+				"paren",
+				"parents	.parents()"
+			],
+			[
+				"my",
+				"myFolder"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"folder",
+				"folderName"
+			],
+			[
+				"ssqI",
+				"ssqInput"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"done",
+				"doneCb"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"toggle",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"check",
+				"checkbox	(form.css)"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"un",
+				"un_icos	(form.css)"
+			],
+			[
+				"di",
+				"disabled"
+			],
+			[
+				"pare",
+				"parent	(btn.html)"
+			],
+			[
+				"removeA",
+				"removeAttr	.removeAttr()"
+			],
+			[
+				"at",
+				"attr	.attr() - single"
+			],
+			[
+				"ssq",
+				"ssqForm"
+			],
+			[
+				"ssqBtn",
+				"ssqBtn	(form.html)"
+			],
+			[
+				"chan",
+				"change	(signIndex.js)"
+			],
+			[
+				"is",
+				"isValid"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"tri",
+				"trigger	.trigger()"
+			],
+			[
+				"com",
+				"component"
+			],
+			[
+				"ui",
+				"ui_lib"
+			],
+			[
+				"all",
+				"allEle"
+			],
+			[
+				"getE",
+				"getElementsByTagName	(doc.js)"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"a",
+				"absolute	(pop.css)"
+			],
+			[
+				"pop",
+				"popMask	(pop.css)"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"ta",
+				"target-script-min.js"
+			],
+			[
+				"ssqIcoAn",
+				"ssqIcoAngleDown	(icos.html)"
+			],
+			[
+				"ssqIco",
+				"ssqIcoDocWait	(icos.html)"
+			],
+			[
+				"已经",
+				"已经取消的	(emailbox_new.jsp)"
+			],
+			[
+				"bol",
+				"border-left"
+			],
+			[
+				"ih",
+				"inherit"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"cont",
+				"content"
+			],
+			[
+				"borr",
+				"border-right-width"
+			],
+			[
+				"span",
+				"span	(homepage.jsp)"
+			],
+			[
+				"r",
+				"rgba"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"ls",
+				"list-style"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"bacc",
+				"background-color"
+			],
+			[
+				"removeCla",
+				"removeClass"
+			],
+			[
+				"bi",
+				"bind"
+			],
+			[
+				"do",
+				"document	(signPage.js)"
+			],
+			[
+				"img",
+				"imgUrl"
+			],
+			[
+				"too",
+				"toggleClass〔function〕"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"off",
+				"offset	.offset()"
+			],
+			[
+				"cla",
+				"class	(homepage.jsp)"
+			],
+			[
+				"addCla",
+				"addClass"
+			],
+			[
+				"removeCl",
+				"removeClass"
+			],
+			[
+				"tran",
+				"translate	(absolute布局.html)"
+			],
+			[
+				"lef",
+				"leftsArr"
+			],
+			[
+				"te",
+				"test.js"
+			],
+			[
+				"comm",
+				"commonFooter	(news.html)"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"bag",
+				"background"
+			],
+			[
+				"removeAtt",
+				"removeAttribute"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"be",
+				"beginPath	(line.html)"
+			],
+			[
+				"sc",
+				"script	Tag"
+			],
+			[
+				"contac",
+				"contactList"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"s",
+				"static_view.js"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"convertt",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"autopre",
+				"Autoprefix CSS"
+			],
+			[
+				"auto",
+				"AutoFileName: Default Settings"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 188.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/liuxiang/Desktop/项目文档/api.sublime-project",
+		"/Users/liuxiang/Desktop/exercise/angular/angular-phonecat/app/js/app.js",
+		"/Users/liuxiang/Desktop/exercise/art_tmpl/router_engine/t1.html",
+		"/Users/liuxiang/Desktop/exercise/art_tmpl/router_engine/t2.html",
+		"/Users/liuxiang/Desktop/exercise/art_tmpl/router_engine/s2.css",
+		"/Users/liuxiang/Desktop/exercise/art_tmpl/router_engine/s1.css",
+		"/Users/liuxiang/Desktop/exercise/art_tmpl/router_engine/s3.css",
+		"/Users/liuxiang/Desktop/exercise/art_tmpl/router_engine/c2.js",
+		"/Users/liuxiang/Desktop/exercise/art_tmpl/router_engine/c3.js",
+		"/Users/liuxiang/Desktop/exercise/art_tmpl/router_engine/index.html",
+		"/Users/liuxiang/Desktop/exercise/art_tmpl/router_engine/router.js",
+		"/Users/liuxiang/Desktop/exercise/h5/跨文档通信/ajax/file.html",
+		"/Users/liuxiang/Desktop/exercise/h5/跨文档通信/window.name跨域.png",
+		"/Users/liuxiang/Desktop/exercise/h5/跨文档通信/ajax/uploadAjax.html",
+		"/Users/liuxiang/Desktop/exercise/h5/跨文档通信/ajax/post_file.php",
+		"/Users/liuxiang/Desktop/exercise/h5/layout/absolute布局.html",
+		"/Users/liuxiang/Desktop/exercise/knockout/index.html",
+		"/Users/liuxiang/Desktop/exercise/knockout/bower_components/knockout/dist/knockout.debug.js",
+		"/Users/liuxiang/Desktop/exercise/knockout/bower_components/knockout/src/options.js",
+		"/Users/liuxiang/Desktop/exercise/knockout/bower_components/knockout/src/namespace.js",
+		"/Users/liuxiang/Desktop/exercise/knockout/bower_components/knockout/src/binding/selectExtensions.js",
+		"/Users/liuxiang/Desktop/ui_lib/css/btn.css",
+		"/Users/liuxiang/Desktop/ui_lib/dist/component.css",
+		"/Users/liuxiang/Desktop/exercise/h5/layout/浮层.html",
+		"/Users/liuxiang/Desktop/exercise/h5/canvas/clip/clip.html",
+		"/Users/liuxiang/Desktop/exercise/h5/canvas/canvas-image/04-image-magnifier/index.html",
+		"/Users/liuxiang/Desktop/exercise/bower_components/jquery-qrcode/dist/jquery-qrcode.js",
+		"/Users/liuxiang/Desktop/ui_lib/index.html",
+		"/Users/liuxiang/Desktop/exercise/angular/angular-phonecat/node_modules/bower/lib/node_modules/lodash/internal/assignInDefaults.js",
+		"/Users/liuxiang/Desktop/exercise/bower_components/animate.css/source/fading_entrances/fadeInDown.css",
+		"/Users/liuxiang/Desktop/ui_lib/node_modules/gulp-util/lib/isNull.js",
+		"/Users/liuxiang/Desktop/exercise/qrcode/index.html",
+		"/Users/liuxiang/Desktop/exercise/bower_components/qrcode.js/lib/qrcode.js",
+		"/Users/liuxiang/Desktop/exercise/textillate/index.html",
+		"/Users/liuxiang/Desktop/exercise/h5/canvas/canvas-image/03-image-watermark/index.html",
+		"/Users/liuxiang/Desktop/exercise/h5/canvas/canvas-image/02-image-scale/index.html",
+		"/Users/liuxiang/Desktop/exercise/h5/canvas/canvas-image/05-image-filter/index.html",
+		"/Users/liuxiang/Desktop/exercise/h5/canvas/canvas-image/06-image-create/index.html",
+		"/Users/liuxiang/Desktop/exercise/h5/layout/fixed布局bug.html",
+		"/Users/liuxiang/Desktop/exercise/js_basic/defineProperty.html",
+		"/Users/liuxiang/Desktop/exercise/test/footerPos.html",
+		"/Users/liuxiang/Desktop/exercise/test/1.txt",
+		"/Users/liuxiang/Desktop/exercise/h5/file API/readAsText.html",
+		"/Users/liuxiang/Desktop/exercise/test/icofont.html",
+		"/Users/liuxiang/Desktop/exercise/test/console.time.html",
+		"/Users/liuxiang/Desktop/exercise/test/download.html",
+		"/Users/liuxiang/Desktop/exercise/h5/file API/readAsDataURL.html",
+		"/Users/liuxiang/Desktop/exercise/h5/file API/blobURL.html",
+		"/Users/liuxiang/Desktop/exercise/test/bower_components/jquery/dist/jquery.js",
+		"/Users/liuxiang/Desktop/exercise/js_basic/touch.html",
+		"/Users/liuxiang/Desktop/exercise/js_basic/mouseenter.html",
+		"/Users/liuxiang/Desktop/exercise/js_basic/throttle.html",
+		"/Users/liuxiang/Desktop/exercise/angular/my_demo/双向数据绑定.html",
+		"/Users/liuxiang/Desktop/exercise/test/selfClick.html",
+		"/Users/liuxiang/Desktop/exercise/test/bower_components/jquery/src/ajax/xhr.js",
+		"/Users/liuxiang/Desktop/exercise/test/throttle.html",
+		"/Users/liuxiang/Desktop/exercise/test/deepCopy.html",
+		"/Users/liuxiang/Desktop/exercise/art_tmpl/router_engine/throttle.html",
+		"/Users/liuxiang/Desktop/exercise/art_tmpl/router_engine/throttle2.html",
+		"/Users/liuxiang/Desktop/exercise/test/bower_components/jquery/src/ajax.js",
+		"/Users/liuxiang/Desktop/exercise/test/bower_components/jquery/src/ajax/load.js",
+		"/Users/liuxiang/Desktop/exercise/test/bower_components/jquery/src/ajax/script.js",
+		"/Users/liuxiang/Desktop/exercise/test/bower_components/jquery/src/attributes/attr.js",
+		"/Users/liuxiang/Desktop/ui_lib/js/doc.js",
+		"/Users/liuxiang/Desktop/exercise/art_tmpl/router_engine/c1.js",
+		"/Users/liuxiang/Desktop/exercise/art_tmpl/1.html",
+		"/Users/liuxiang/Desktop/exercise/schema/listen_publish.html",
+		"/Users/liuxiang/Desktop/exercise/art_tmpl/4.html",
+		"/Users/liuxiang/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/liuxiang/Desktop/exercise/art_tmpl/3.html",
+		"/Users/liuxiang/Desktop/exercise/art_tmpl/5.html",
+		"/Users/liuxiang/Desktop/exercise/art_tmpl/sub_tmpl.js",
+		"/Users/liuxiang/Desktop/exercise/knockout/bower_components/knockout/dist/knockout.js",
+		"/Users/liuxiang/Desktop/exercise/test/typeCheck.html",
+		"/Users/liuxiang/Desktop/exercise/test/bounce.js.html",
+		"/private/etc/bashrc",
+		"/Users/liuxiang/Desktop/signature/src/main/webapp/jsp/sign/assignTo.html",
+		"/Users/liuxiang/Desktop/signature/src/main/webapp/js/signPage.js",
+		"/Users/liuxiang/Desktop/signature/src/main/webapp/js/editBeforeSign.js",
+		"/Users/liuxiang/Desktop/signature/src/main/webapp/css/editBeforeSign.css",
+		"/Users/liuxiang/Desktop/signature/src/main/webapp/jsp/login/feature.html",
+		"/Users/liuxiang/Desktop/signature/src/main/webapp/jsp/login/agreement.html",
+		"/Users/liuxiang/Desktop/signature/src/main/webapp/jsp/common/commonHeader.html",
+		"/Users/liuxiang/Downloads/合同验真/contractCheck.html",
+		"/Users/liuxiang/Desktop/signature/src/main/webapp/js/docList.js",
+		"/Users/liuxiang/Desktop/temp/moment.js",
+		"/Users/liuxiang/Desktop/temp/run.html",
+		"/Users/liuxiang/Desktop/temp/pikaday.js",
+		"/Users/liuxiang/Desktop/temp/pikaday.css",
+		"/Users/liuxiang/Desktop/ui_lib/css/progress.css",
+		"/Users/liuxiang/Desktop/ui_lib/components/pop.html",
+		"/Users/liuxiang/Desktop/ui_lib/components/form.html",
+		"/Users/liuxiang/Desktop/ui_lib/css/paging.css",
+		"/Users/liuxiang/Desktop/ui_lib/js/components.js",
+		"/Users/liuxiang/Desktop/ui_lib/css/icos.css",
+		"/Users/liuxiang/Desktop/ui_lib/css/form.css",
+		"/Users/liuxiang/Desktop/signature/src/main/webapp/jsp/sign/selfSignPage.html",
+		"/Users/liuxiang/Desktop/signature/src/main/webapp/jsp/login/index_v2.2.0.jsp",
+		"/Users/liuxiang/Desktop/signature/src/main/webapp/ui_lib/js/components.js",
+		"/Users/liuxiang/Desktop/signature/src/main/webapp/js/docDetail.js",
+		"/Users/liuxiang/Desktop/signature/src/main/webapp/ui_lib/css/component.css",
+		"/Users/liuxiang/Desktop/ui_lib/node_modules/caniuse-db/features-json/chacha20-poly1305.json",
+		"/Users/liuxiang/Desktop/exercise/h5/uploadFile/pdf.js/src/core/pdf_manager.js",
+		"/Users/liuxiang/Desktop/wap/src/main/node_modules/cssstyle/lib/properties/webkitMaskPosition.js",
+		"/Users/liuxiang/Desktop/ui_lib/node_modules/clean-css/lib/properties/populate-components.js",
+		"/Users/liuxiang/Desktop/wap/src/main/webapp/js/signIndex.js",
+		"/Users/liuxiang/Desktop/signature/target/signature/js/signIndex.js",
+		"/Users/liuxiang/Desktop/wap/target/bestsign-wap/js/signIndex.js",
+		"/Users/liuxiang/Desktop/项目文档/code/js/signIndex.js",
+		"/Users/liuxiang/Desktop/项目文档/code/signIndex.html",
+		"/Users/liuxiang/Desktop/exercise/js原理/setInterval.html",
+		"/Users/liuxiang/Desktop/signature/src/main/webapp/js/signIndex.js",
+		"/Users/liuxiang/Desktop/signature/src/main/webapp/js/signValidate.js",
+		"/Users/liuxiang/Desktop/wap/src/main/webapp/jsp/home/homepage.jsp",
+		"/Users/liuxiang/Desktop/signature/target/signature/jsp/home/homepage.jsp",
+		"/Users/liuxiang/Desktop/wap/target/bestsign-wap/jsp/home/homepage.jsp",
+		"/Users/liuxiang/Desktop/wap/target/bestsign-wap/js/homepage.js",
+		"/Users/liuxiang/Desktop/项目文档/code/css/homepage.css",
+		"/Users/liuxiang/Desktop/exercise/es2015/babel/node_modules/babel-runtime/core-js/reflect/has-own-metadata.js",
+		"/Users/liuxiang/Desktop/exercise/css3/cH-oH.html",
+		"/Users/liuxiang/Desktop/signature/src/main/webapp/js/homepage.js",
+		"/Users/liuxiang/Desktop/signature/src/main/webapp/css/homepage.css",
+		"/Users/liuxiang/Desktop/wap/src/main/webapp/js/homepage.js",
+		"/Users/liuxiang/Desktop/wap/src/main/webapp/css/homepage.css",
+		"/Users/liuxiang/Desktop/signature/target/signature/js/homepage.js",
+		"/Users/liuxiang/Desktop/signature/target/signature/css/homepage.css",
+		"/Users/liuxiang/Desktop/wap/target/bestsign-wap/css/homepage.css",
+		"/Users/liuxiang/Desktop/wap/target/bestsign-wap/js/JCommon.js"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+			"/Users/liuxiang/Desktop/kolibre",
+			"/Users/liuxiang/Desktop/wap/src/main/webapp/css",
+			"/Users/liuxiang/Desktop/wap/src/main/webapp/jsp",
+			"/Users/liuxiang/Desktop/wap/src/main/build/jsp",
+			"/Users/liuxiang/Desktop/wap/src/main/webapp/jsp",
+			"/Users/liuxiang/Desktop/signature/src/main/webapp/css",
+			"/Users/liuxiang/Desktop/signature/src/main/build/css",
+			"/Users/liuxiang/Desktop/signature/src/main/webapp/jsp",
+			"/Users/liuxiang/Desktop/wap/src/main/webapp/jsp",
+			"/Users/liuxiang/Desktop/signature/src/main/webapp/jsp",
+			"/Users/liuxiang/Desktop/signature/src/main/webapp",
+			"/Users/liuxiang/Desktop/signature/src/main/webapp1",
+			"/Users/liuxiang/Desktop/wap/src/main/webapp/jsp"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ajax",
+			"$.apis",
+			"$.view",
+			"$.routerConfig",
+			"router",
+			"absolute",
+			"1",
+			"fixed",
+			"X",
+			"getProto",
+			"this",
+			"c",
+			"li",
+			"sendContract",
+			".hide",
+			"合同验真",
+			"$('#toPage').val()",
+			"noMultiPage",
+			"archiveSelectTpl",
+			"createTbFolderLabel",
+			"删除",
+			"doneCb",
+			"等待",
+			"addFolfer",
+			"initContract",
+			"loading",
+			"6",
+			"progressCb",
+			"processWait",
+			".leftRegion .nav .item",
+			"'cur'",
+			"cur",
+			"createTbFolderLabel",
+			"toArchiveConDetails",
+			"$(dom)",
+			"dom",
+			"attr",
+			", dom",
+			"configurable",
+			"inf",
+			"in",
+			"propLinkStrategy",
+			"toMyReceive",
+			"sendContract",
+			"pageNum",
+			"sendContract",
+			"SENDCONTRACT",
+			"sendContract",
+			"hashChangehandler",
+			"signConfirmBtn",
+			"批量签署",
+			"sendContract",
+			"下一步",
+			"pageNum",
+			"<a href=\"https://www.lijuren.com/\" target=\"_blank\"><img src=\"/images/index_v2.2.0/mediaReport15.png\" width=\"160\" alt=\"\"/></a>",
+			"height=\"57\"",
+			"data.",
+			"toFi",
+			"toFin",
+			"parseTime",
+			"dataset",
+			"getAttribute",
+			"data-href",
+			"getAttribute",
+			"dataset",
+			"tit",
+			"span",
+			"location.search.substr(8)",
+			"SecurityObj",
+			"data-pop-target=\"uploadPop\"",
+			"ssqUserCenter.",
+			"proDone",
+			"itemNum",
+			"searchReceiver",
+			"        var ta\ngetSignIds",
+			"getSignIds",
+			"$('#getVoiceCode')",
+			"$getCodeBtn",
+			"that",
+			"localFileUpload",
+			"getSignIds",
+			"tplAssemble",
+			"isAppoint",
+			"fileList",
+			"isAppoint",
+			"data-is-deleted=' + isDeleted + '",
+			"table",
+			"sendVerCode",
+			"getSignIds",
+			"getSelfVerCode",
+			"multiSignPop",
+			"folder",
+			"createFolderLabel",
+			"FolderLabel",
+			"folderLabel",
+			"allPage",
+			"noCk",
+			"allPage",
+			"tplAssemble",
+			"allP",
+			"allPage",
+			"tplAssemble",
+			"data-target-id",
+			"签署",
+			"render",
+			"hashChangehandler",
+			"tplAssemble",
+			"appointHrml",
+			"re bind",
+			"td",
+			"tr",
+			"fileReminder",
+			"$('.folderList')",
+			"archiveSelectTpl",
+			"archiveBtn",
+			"false",
+			"pageIndex",
+			"=\"\" style=\"border:none\" ",
+			"config",
+			"var ",
+			"endtime",
+			"receiver",
+			"config",
+			"hashChangehandler",
+			"isAppoint",
+			"archiveId",
+			"hashChangehandler",
+			"toPageNum"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "api.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"signindex",
+				"signature/src/main/webapp/js/signIndex.js"
+			],
+			[
+				"signi",
+				"wap/src/main/webapp/js/signIndex.js"
+			],
+			[
+				"homepage.jsp",
+				"signature/src/main/webapp/jsp/home/homepage.jsp"
+			],
+			[
+				"homep",
+				"wap/src/main/webapp/jsp/home/homepage.jsp"
+			],
+			[
+				"jcom",
+				"signature/target/signature/js/JCommon.js"
+			],
+			[
+				"component.css",
+				"signature/src/main/webapp/ui_lib/css/component.css"
+			],
+			[
+				"compo",
+				"ui_lib/js/components.js"
+			],
+			[
+				"doclist",
+				"signature/src/main/webapp/js/docList.js"
+			],
+			[
+				"doclis",
+				"wap/src/main/webapp/js/docList.js"
+			],
+			[
+				"paging",
+				"ui_lib/css/paging.css"
+			],
+			[
+				"pop.cs",
+				"ui_lib/css/pop.css"
+			],
+			[
+				"docren",
+				"signature/src/main/webapp/js/docRender.js"
+			],
+			[
+				"head_new",
+				"wap/target/bestsign-wap/jsp/common/head_new.jsp"
+			],
+			[
+				"commonh",
+				"signature/src/main/webapp/jsp/common/commonHeader.html"
+			],
+			[
+				"doc.js",
+				"signature/src/main/webapp/js/doc.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/exercise/art_tmpl/router_engine/api.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
