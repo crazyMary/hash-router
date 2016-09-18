@@ -19,3 +19,9 @@ cacheTmpl：是否缓存模版（Boolean）
                 controllers: ['c1.js'],
                 styles: ['s1.css'],
             })
+ @param1:hash路径（:参数）
+ @param2:路径资源配置:  
+ -view:视图模版
+ -data:全局数据
+ -apis:当前模版初始化请求的数据资源
+ 
