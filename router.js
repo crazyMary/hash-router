@@ -9,11 +9,13 @@
         $.routerConfig = {};
         $.cacheTmpl = config.cacheTmpl || false; //是否缓存模版
         $.container = document.getElementById(config.container);
+        $.beforeFn = config.beforeFn;
+        $.afterFn = config.afterFn;
     };
     // config router
     Router.prototype.when = function(hash, config) {
-        var hashSplit = hash.split(':'),
-            hash = hashSplit.shift();
+        var hashSplit = hash.split(':');
+        hash = hashSplit.shift();
         config.paramNames = hashSplit; //get paramsName
         $.routerConfig[hash] = config;
         return $;
@@ -54,6 +56,7 @@
     };
     // prepare model
     Router.prototype.loadData = function(tmplConfig) {
+
         // apis && data 未配置
         if (tmplConfig.apis === undefined && tmplConfig.data === undefined) {
             $.loadTemplate(tmplConfig, {});
@@ -64,7 +67,8 @@
         }
         // 未配置apis
         if (tmplConfig.apis !== undefined) {
-            $.apis = tmplConfig.apis;
+            isFunction($.beforeFn) && $.beforeFn();
+            $.apis = JSON.parse(JSON.stringify(tmplConfig.apis));
             var results = tmplConfig.data || {},
                 count = 0,
                 len = 0;
@@ -91,7 +95,7 @@
             $.container.innerHTML = html;
             $.loadController(tmplConfig.controllers || []);
             $.loadStyle(tmplConfig.styles || []);
-            isFunction(tmplConfig.done) && tmplConfig.done();
+            isFunction($.afterFn) && $.afterFn();
         })
     };
     // prepare skin

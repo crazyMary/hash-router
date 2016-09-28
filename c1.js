@@ -1,8 +1,5 @@
 !(function() {
-    var btn = document.getElementById('btn');
-    window.onclick = function(e) {
-        if (e.target.id === 'btn') {
-            alert(1)
-        }
-    }
+  btn.onclick = function(e) {
+    alert(1)
+  }
 })()
