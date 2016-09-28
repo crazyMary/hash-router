@@ -3,6 +3,8 @@
 ##参数配置：
 container：模块容器（id）
 cacheTmpl：是否缓存模版（Boolean）
+beforeFn: 模版加载前方法回调(function),
+afterFn: 模版加载完成方法回调(function)
 ##路径配置：
         router.when('/a/:size:more', {
                 view: 't1.html',
