@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="text/javascript" src="template.js"></script>
+    <script type="text/javascript" src="router_v2.js"></script>
+</head>
+
+<body>
+    <a href="#/id?id=34102219890512001X">ID信息</a>
+    <a href="#/news?word=刘翔">新闻(刘翔)</a>
+    <a href="#/news?word=林丹">新闻(林丹)</a>
+    <a href="#/text">一些文字</a>
+    <div id="routerContainer"></div>
+    <script type="text/javascript">
+    var router = new Router({
+        container: 'routerContainer',
+        cacheView: true,
+        beforeFn:function(){
+            console.log('beforeFn');
+        },
+        afterFn:function(){
+            console.log('afterFn');
+        },
+    });
+    router.when('/id', {
+        view: 'xx1.html',
+        data: {
+            myInfo: {
+                name: 'liuxiang',
+                age: 18
+            }
+        },
+        apis: {
+            idInfo: {
+                url: 'http://apis.baidu.com/apistore/idservice/id?id={id}',
+                config:{
+                    apikey:'b540b1460446d5d645629317c84b714b'
+                }
+            },
+        },
+        controllers: ['c1.js'],
+        styles: ['s1.css'],
+    }).when('/news', {
+        view: 'xx2.html',
+        apis: {
+            newsInfo: {
+                url: 'http://apis.baidu.com/txapi/tiyu/tiyu?num=10&page=1&word={word}',
+                config:{
+                    apikey:'b540b1460446d5d645629317c84b714b'
+                }
+            },
+        },
+        styles: ['s2.css'],
+    }).when('/text', {
+        view: 'xx3.html',
+        styles: ['s3.css'],
+    }).otherwise('/id?id=34102219890512001X').run()
+    </script>
+</body>
+
+</html>
