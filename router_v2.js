@@ -134,11 +134,12 @@
         }
     }
 
-    function loadView(config, initData) {
-        var xhr = new XMLHttpRequest;
-        xhr.onload = function() {
+    var loadView = (function() {
+        var cache = {}; //缓存模版
+
+        function viewLoaded(viewHTML, config, initData) {
             // render view
-            var render = template.compile(this.response),
+            var render = template.compile(viewHTML),
                 view = render(initData);
             self.container.innerHTML = view;
             // 执行渲染完成回调afterFn
@@ -147,9 +148,21 @@
             loadController(config.controllers || []);
             loadStyle(config.styles || []);
         }
-        xhr.open('GET', config.view, true);
-        xhr.send();
-    }
+        return function(config, initData) {
+            var viewPath = config.view;
+            if (self.cacheView && (viewPath in cache)) {
+                return viewLoaded(cache[viewPath], config, initData);
+            }
+            var xhr = new XMLHttpRequest;
+            xhr.onload = function() {
+                var ret = this.response;
+                viewLoaded(ret, config, initData);
+                cache[viewPath] = ret;
+            }
+            xhr.open('GET', viewPath, true);
+            xhr.send();
+        }
+    })();
 
     var loadStyle = (function() {
         var sJson = [];
