@@ -1,3 +1,4 @@
-<p>{{myInfo.name}}</p>
-<p>{{idInfo.retData.address}}</p>
-<button id="btn">按钮</button>
+{{each dreamInfo.newslist as value}}
+<h1>{{value.title}}</h1>
+<p>{{value.result}}</p>
+{{/each}}
