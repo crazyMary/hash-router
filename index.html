@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <script type="text/javascript" src="template.js"></script>
-    <script type="text/javascript" src="router_v2.js"></script>
+    <script type="text/javascript" src="router.js"></script>
 </head>
 
 <body>
@@ -50,6 +50,12 @@
         styles: ['s1.css'],
     }).when('/news', {
         view: 'xx2.html',
+        data:{
+            existData:{
+                name: 'xiaoming',
+                age:18
+            }
+        },
         apis: {
             newsInfo: {
                 url: 'http://apis.baidu.com/txapi/tiyu/tiyu?num=10&page=1&word={word}',
@@ -58,6 +64,7 @@
                 }
             },
         },
+        controllers: ['c1.js'],
         styles: ['s2.css'],
     }).when('/text', {
         view: 'xx3.html',
