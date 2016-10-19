@@ -1,11 +1,27 @@
 /**
- * [hash router engine based on art-template]
- * @param  {[type]} window   
- * @param  {[type]} template 
- * @return {[type]} Router  
+ * Description:
+ * hash router engine based on art-template
+ *
+ * Author:
+ * Liu Xiang
+ * 
+ * Fork:
+ * https://github.com/crazyMary/hash-router
  */
-!(function(window, template) {
+(function(factory) {
+    if (typeof exports === 'object') {
+        // CMD
+        module.exports = factory();
+    } else if (typeof define === 'function' && define.amd) {
+        // AMD. Register as an anonymous module.
+        define(factory);
+    } else {
+        // Browser globals
+        window.Router = factory();
+    }
+})(function() {
     var bindEvent,
+        removeEvent,
         isFunction,
         deepCopy,
         fetchData,
@@ -22,7 +38,7 @@
     };
     // 是否为function
     isFunction = function(func) {
-        return ({}).toString.call(func) === "[object Function]" ? true : false;
+        return ({}).toString.call(func) === '[object Function]' ? true : false;
     };
     // 事件绑定
     bindEvent = (function() {
@@ -35,6 +51,18 @@
                 obj.attachEvent('on' + ev, function() {
                     fn.call(obj);
                 })
+            }
+        }
+    })();
+    // 事件解除
+    removeEvent = (function() {
+        if (window.removeEventListener) {
+            return function(obj, ev, fn) {
+                obj.removeEventListener(ev, fn, false);
+            }
+        } else {
+            return function(obj, ev, fn) {
+                obj.detachEvent('on' + ev, fn);
             }
         }
     })();
@@ -52,13 +80,13 @@
         xhr.send();
     };
     removeResource = function(resourceList, pNode) {
-            var i = 0,
-                r;
-            for (; r = resourceList[i++];) {
-                pNode.removeChild(document.getElementById(r))
-            }
+        var i = 0,
+            r;
+        for (; r = resourceList[i++];) {
+            pNode.removeChild(document.getElementById(r))
         }
-        // Router constructor
+    };
+    // Router constructor
     Router = function(config) {
         self = this;
         self.cacheView = config.cacheView || false; //是否缓存模版
@@ -184,18 +212,18 @@
     })();
 
     var loadController = (function() {
-        var cJson = [];
+        var cJson = {};
         return function(controllers) {
             var i = 0,
                 c;
-            removeResource(cJson, document.body);
-            cJson = [];
             for (; c = controllers[i++];) {
+                if (c in cJson)
+                    continue;
                 var s = document.createElement('script');
                 s.src = c;
                 s.id = c;
                 document.body.appendChild(s);
-                cJson.push(c);
+                cJson[c] = null;
             }
         }
     })();
@@ -220,5 +248,5 @@
         }
     };
 
-    window.Router = Router;
-})(window, template)
+    return Router;
+})

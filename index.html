@@ -17,6 +17,7 @@
         周公解梦：<input id="searchDearm" type="search" placeholder="关键词">
         <button id="searchDearmBtn">search</button>
     </div>
+    <div id="routerContainer"></div>
     <script type="text/javascript">
     searchAthleteBtn.onclick = function(){
         window.location.hash = '#/news?word='+searchAthlete.value;
@@ -25,7 +26,6 @@
         window.location.hash = '#/dream?word='+searchDearm.value;
     }
     </script>
-    <div id="routerContainer"></div>
     <script type="text/javascript">
     var router = new Router({
         container: 'routerContainer',
@@ -47,6 +47,7 @@
                 }
             },
         },
+        controllers: ['c1.js'],
         styles: ['s1.css'],
     }).when('/news', {
         view: 'xx2.html',
@@ -64,7 +65,7 @@
                 }
             },
         },
-        controllers: ['c1.js'],
+        controllers: ['c2.js'],
         styles: ['s2.css'],
     }).when('/text', {
         view: 'xx3.html',

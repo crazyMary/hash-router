@@ -1,5 +1,6 @@
 !(function() {
-  btn.onclick = function(e) {
-    alert(1)
-  }
+    var fn1 = function() {
+        console.log('window clicked')
+    };
+    window.addEventListener('click', fn1, false)
 })()
