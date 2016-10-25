@@ -1,6 +1,7 @@
 # 前端轻量级路由框架
 
 > 该框架依赖art-template模版引擎，通过监听hashchange的方式实现SPA。
+> 项目中可直接引用art-template与router.js的合并版本spa.min.js。
 
 ## 构造函数
 > 提供Router构造器生成路由实例，Router方法接受四个参数：
@@ -57,3 +58,8 @@ when('/news', {
 otherwise('/text')
 ```
 - run: 启动路由。
+## 测试demo
+```shell
+npm i
+gulp watch
+```

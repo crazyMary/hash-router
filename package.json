@@ -1,0 +1,30 @@
+{
+  "name": "router_engine",
+  "version": "1.0.0",
+  "description": "hash router based on art-template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
+  },
+  "dependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^1.5.3",
+    "gulp-concat": "^2.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crazyMary/hash-router.git"
+  },
+  "keywords": [
+    "router"
+  ],
+  "author": "liuxiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crazyMary/hash-router/issues"
+  },
+  "homepage": "https://github.com/crazyMary/hash-router#readme"
+}
