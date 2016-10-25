@@ -1,6 +1,6 @@
 /**
  * Description:
- * hash router engine based on art-template
+ * hash router based on art-template
  *
  * Author:
  * Liu Xiang
@@ -8,18 +8,7 @@
  * Fork:
  * https://github.com/crazyMary/hash-router
  */
-(function(factory) {
-    if (typeof exports === 'object') {
-        // CMD
-        module.exports = factory();
-    } else if (typeof define === 'function' && define.amd) {
-        // AMD. Register as an anonymous module.
-        define(factory);
-    } else {
-        // Browser globals
-        window.Router = factory();
-    }
-})(function() {
+!(function(template) {
     var bindEvent,
         removeEvent,
         isFunction,
@@ -248,5 +237,16 @@
         }
     };
 
-    return Router;
-})
+    (function() {
+        if (typeof module !== 'undefined' && typeof exports === 'object') {
+            module.exports = Router;
+        } else if (typeof define === 'function' && (define.amd || define.cmd)) {
+            define(function() {
+                return Router;
+            });
+        } else {
+            window.Router = Router;
+        }
+    })()
+
+})(template)
