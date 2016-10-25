@@ -58,6 +58,7 @@ when('/news', {
 otherwise('/text')
 ```
 - run: 启动路由。
+
 ## 测试demo
 ```shell
 npm i
