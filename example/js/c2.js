@@ -1,5 +1,7 @@
 !(function() {
-  btn.addEventListener('click', function() {
-    alert('clicked')
+  document.addEventListener('click', function(ev) {
+    if (ev.target.id === 'btn') {
+      alert('clicked')
+    }
   }, false)
 })()
